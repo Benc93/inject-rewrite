@@ -10,7 +10,8 @@ class Array
     starter = yield(starter, element)  #sets the starter variable and runs the block
     end 
     starter                            #returns the finished accumulator value
-  end
+  end  
 
+  
   
 end
