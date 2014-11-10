@@ -9,8 +9,4 @@ require 'inject_rewrite'
       expect(array.jab {|starter, element| starter + element}).to eq 26
     end  
 
-
-
-
-
   end

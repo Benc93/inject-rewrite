@@ -12,6 +12,4 @@ class Array
     starter                            #returns the finished accumulator value
   end  
 
-  
-  
 end
