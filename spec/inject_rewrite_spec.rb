@@ -1,6 +1,6 @@
 require 'inject_rewrite'
 
-  context 'inject_rewrite should' do 
+  context 'inject_rewrite (AKA Jab) should' do 
 
     let (:array) {Array.new}
 
@@ -19,5 +19,13 @@ require 'inject_rewrite'
       expect(array.jab {|starter, element| starter * element}).to eq 32
     end
 
+    it 'be able to divide all elements in the array' do 
+      array = [1000, 10, 10]
+      expect(array.jab {|starter, element| starter / element}).to eq 10
+    end
 
+    it 'be able to add string values' do 
+      array = ["Inject ", "is ", "rewritten"]
+      expect(array.jab {|starter, element| starter + element}).to eq "Inject is rewritten"
+    end
   end
