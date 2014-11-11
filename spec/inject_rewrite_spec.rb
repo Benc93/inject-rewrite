@@ -9,4 +9,15 @@ require 'inject_rewrite'
       expect(array.jab {|starter, element| starter + element}).to eq 26
     end  
 
+    it 'be able to subtract all elements in the array' do 
+      array = [10, 2, 2, 2]
+      expect(array.jab {|starter, element| starter - element}).to eq 4
+    end
+
+    it 'be able to multiply all elements in the array' do 
+      array = [2, 2, 2, 2, 2]
+      expect(array.jab {|starter, element| starter * element}).to eq 32
+    end
+
+
   end
