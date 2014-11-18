@@ -18,6 +18,6 @@ The native method acts on an enumerable object, and takes an *argument* and a *b
 ```
 If the argument is NOT passed explicitly, the method defaults to the first element in the array. 
 ________________________________________________________________________________________________________________________________
-With that defined, I started testing...   that was 50 hours ago.. 
+
 
 **END**
