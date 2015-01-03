@@ -33,4 +33,8 @@ This was completed as everything is at Makers Academy using Test Driven methodol
     
 After my tests were all passing, with a little help and some one-to-one coaching sessions I was able to significantly refactor into a nice readable method.
 
+###Lessons Learned
+    
+This challenge was enjoyable because while it didn't take on any new technologies, it did push my understanding of Ruby syntax and helped my understanding of the inject method. 
+    
 **END**
